@@ -1,0 +1,678 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		801F66BDDD7A5BE45E21495E /* Pods_GeoDrop.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFBDFCEFE7C566542C919C53 /* Pods_GeoDrop.framework */; };
+		883B79152B1B08EB004D8AB9 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B79142B1B08EB004D8AB9 /* AppDelegate.swift */; };
+		883B79172B1B08EB004D8AB9 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B79162B1B08EB004D8AB9 /* SceneDelegate.swift */; };
+		883B79192B1B08EB004D8AB9 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B79182B1B08EB004D8AB9 /* ViewController.swift */; };
+		883B791C2B1B08EB004D8AB9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883B791A2B1B08EB004D8AB9 /* Main.storyboard */; };
+		883B791E2B1B08EC004D8AB9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 883B791D2B1B08EC004D8AB9 /* Assets.xcassets */; };
+		883B79212B1B08EC004D8AB9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 883B791F2B1B08EC004D8AB9 /* LaunchScreen.storyboard */; };
+		883B792C2B1B08EC004D8AB9 /* GeoDropTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B792B2B1B08EC004D8AB9 /* GeoDropTests.swift */; };
+		883B79362B1B08EC004D8AB9 /* GeoDropUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B79352B1B08EC004D8AB9 /* GeoDropUITests.swift */; };
+		883B79382B1B08EC004D8AB9 /* GeoDropUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 883B79372B1B08EC004D8AB9 /* GeoDropUITestsLaunchTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		883B79282B1B08EC004D8AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883B79092B1B08EB004D8AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883B79102B1B08EB004D8AB9;
+			remoteInfo = GeoDrop;
+		};
+		883B79322B1B08EC004D8AB9 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 883B79092B1B08EB004D8AB9 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 883B79102B1B08EB004D8AB9;
+			remoteInfo = GeoDrop;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		883B79112B1B08EB004D8AB9 /* GeoDrop.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeoDrop.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		883B79142B1B08EB004D8AB9 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		883B79162B1B08EB004D8AB9 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		883B79182B1B08EB004D8AB9 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		883B791B2B1B08EB004D8AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		883B791D2B1B08EC004D8AB9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		883B79202B1B08EC004D8AB9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		883B79222B1B08EC004D8AB9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		883B79272B1B08EC004D8AB9 /* GeoDropTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoDropTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		883B792B2B1B08EC004D8AB9 /* GeoDropTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDropTests.swift; sourceTree = "<group>"; };
+		883B79312B1B08EC004D8AB9 /* GeoDropUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeoDropUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		883B79352B1B08EC004D8AB9 /* GeoDropUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDropUITests.swift; sourceTree = "<group>"; };
+		883B79372B1B08EC004D8AB9 /* GeoDropUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeoDropUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		983722FAD901485954B446A2 /* Pods-GeoDrop.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoDrop.debug.xcconfig"; path = "Target Support Files/Pods-GeoDrop/Pods-GeoDrop.debug.xcconfig"; sourceTree = "<group>"; };
+		9FDA80D6206E1943537E9961 /* Pods-GeoDrop.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-GeoDrop.release.xcconfig"; path = "Target Support Files/Pods-GeoDrop/Pods-GeoDrop.release.xcconfig"; sourceTree = "<group>"; };
+		BFBDFCEFE7C566542C919C53 /* Pods_GeoDrop.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_GeoDrop.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		883B790E2B1B08EB004D8AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				801F66BDDD7A5BE45E21495E /* Pods_GeoDrop.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883B79242B1B08EC004D8AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883B792E2B1B08EC004D8AB9 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		614F0640923186D56C00589B /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				983722FAD901485954B446A2 /* Pods-GeoDrop.debug.xcconfig */,
+				9FDA80D6206E1943537E9961 /* Pods-GeoDrop.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		883B79082B1B08EB004D8AB9 = {
+			isa = PBXGroup;
+			children = (
+				883B79132B1B08EB004D8AB9 /* GeoDrop */,
+				883B792A2B1B08EC004D8AB9 /* GeoDropTests */,
+				883B79342B1B08EC004D8AB9 /* GeoDropUITests */,
+				883B79122B1B08EB004D8AB9 /* Products */,
+				614F0640923186D56C00589B /* Pods */,
+				B75DBF8B13BBE7C04CE3EAB2 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		883B79122B1B08EB004D8AB9 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				883B79112B1B08EB004D8AB9 /* GeoDrop.app */,
+				883B79272B1B08EC004D8AB9 /* GeoDropTests.xctest */,
+				883B79312B1B08EC004D8AB9 /* GeoDropUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		883B79132B1B08EB004D8AB9 /* GeoDrop */ = {
+			isa = PBXGroup;
+			children = (
+				883B79142B1B08EB004D8AB9 /* AppDelegate.swift */,
+				883B79162B1B08EB004D8AB9 /* SceneDelegate.swift */,
+				883B79182B1B08EB004D8AB9 /* ViewController.swift */,
+				883B791A2B1B08EB004D8AB9 /* Main.storyboard */,
+				883B791D2B1B08EC004D8AB9 /* Assets.xcassets */,
+				883B791F2B1B08EC004D8AB9 /* LaunchScreen.storyboard */,
+				883B79222B1B08EC004D8AB9 /* Info.plist */,
+			);
+			path = GeoDrop;
+			sourceTree = "<group>";
+		};
+		883B792A2B1B08EC004D8AB9 /* GeoDropTests */ = {
+			isa = PBXGroup;
+			children = (
+				883B792B2B1B08EC004D8AB9 /* GeoDropTests.swift */,
+			);
+			path = GeoDropTests;
+			sourceTree = "<group>";
+		};
+		883B79342B1B08EC004D8AB9 /* GeoDropUITests */ = {
+			isa = PBXGroup;
+			children = (
+				883B79352B1B08EC004D8AB9 /* GeoDropUITests.swift */,
+				883B79372B1B08EC004D8AB9 /* GeoDropUITestsLaunchTests.swift */,
+			);
+			path = GeoDropUITests;
+			sourceTree = "<group>";
+		};
+		B75DBF8B13BBE7C04CE3EAB2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BFBDFCEFE7C566542C919C53 /* Pods_GeoDrop.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		883B79102B1B08EB004D8AB9 /* GeoDrop */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883B793B2B1B08EC004D8AB9 /* Build configuration list for PBXNativeTarget "GeoDrop" */;
+			buildPhases = (
+				789AFEE216F251EAFA9C0CD7 /* [CP] Check Pods Manifest.lock */,
+				883B790D2B1B08EB004D8AB9 /* Sources */,
+				883B790E2B1B08EB004D8AB9 /* Frameworks */,
+				883B790F2B1B08EB004D8AB9 /* Resources */,
+				5C88E45C00F1B52A98E71858 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = GeoDrop;
+			productName = GeoDrop;
+			productReference = 883B79112B1B08EB004D8AB9 /* GeoDrop.app */;
+			productType = "com.apple.product-type.application";
+		};
+		883B79262B1B08EC004D8AB9 /* GeoDropTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883B793E2B1B08EC004D8AB9 /* Build configuration list for PBXNativeTarget "GeoDropTests" */;
+			buildPhases = (
+				883B79232B1B08EC004D8AB9 /* Sources */,
+				883B79242B1B08EC004D8AB9 /* Frameworks */,
+				883B79252B1B08EC004D8AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883B79292B1B08EC004D8AB9 /* PBXTargetDependency */,
+			);
+			name = GeoDropTests;
+			productName = GeoDropTests;
+			productReference = 883B79272B1B08EC004D8AB9 /* GeoDropTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		883B79302B1B08EC004D8AB9 /* GeoDropUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 883B79412B1B08EC004D8AB9 /* Build configuration list for PBXNativeTarget "GeoDropUITests" */;
+			buildPhases = (
+				883B792D2B1B08EC004D8AB9 /* Sources */,
+				883B792E2B1B08EC004D8AB9 /* Frameworks */,
+				883B792F2B1B08EC004D8AB9 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				883B79332B1B08EC004D8AB9 /* PBXTargetDependency */,
+			);
+			name = GeoDropUITests;
+			productName = GeoDropUITests;
+			productReference = 883B79312B1B08EC004D8AB9 /* GeoDropUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		883B79092B1B08EB004D8AB9 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1500;
+				LastUpgradeCheck = 1500;
+				TargetAttributes = {
+					883B79102B1B08EB004D8AB9 = {
+						CreatedOnToolsVersion = 15.0;
+					};
+					883B79262B1B08EC004D8AB9 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 883B79102B1B08EB004D8AB9;
+					};
+					883B79302B1B08EC004D8AB9 = {
+						CreatedOnToolsVersion = 15.0;
+						TestTargetID = 883B79102B1B08EB004D8AB9;
+					};
+				};
+			};
+			buildConfigurationList = 883B790C2B1B08EB004D8AB9 /* Build configuration list for PBXProject "GeoDrop" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 883B79082B1B08EB004D8AB9;
+			productRefGroup = 883B79122B1B08EB004D8AB9 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				883B79102B1B08EB004D8AB9 /* GeoDrop */,
+				883B79262B1B08EC004D8AB9 /* GeoDropTests */,
+				883B79302B1B08EC004D8AB9 /* GeoDropUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		883B790F2B1B08EB004D8AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883B79212B1B08EC004D8AB9 /* LaunchScreen.storyboard in Resources */,
+				883B791E2B1B08EC004D8AB9 /* Assets.xcassets in Resources */,
+				883B791C2B1B08EB004D8AB9 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883B79252B1B08EC004D8AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883B792F2B1B08EC004D8AB9 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5C88E45C00F1B52A98E71858 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoDrop/Pods-GeoDrop-resources-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Copy Pods Resources";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-GeoDrop/Pods-GeoDrop-resources-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-GeoDrop/Pods-GeoDrop-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		789AFEE216F251EAFA9C0CD7 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-GeoDrop-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		883B790D2B1B08EB004D8AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883B79192B1B08EB004D8AB9 /* ViewController.swift in Sources */,
+				883B79152B1B08EB004D8AB9 /* AppDelegate.swift in Sources */,
+				883B79172B1B08EB004D8AB9 /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883B79232B1B08EC004D8AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883B792C2B1B08EC004D8AB9 /* GeoDropTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		883B792D2B1B08EC004D8AB9 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				883B79362B1B08EC004D8AB9 /* GeoDropUITests.swift in Sources */,
+				883B79382B1B08EC004D8AB9 /* GeoDropUITestsLaunchTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		883B79292B1B08EC004D8AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883B79102B1B08EB004D8AB9 /* GeoDrop */;
+			targetProxy = 883B79282B1B08EC004D8AB9 /* PBXContainerItemProxy */;
+		};
+		883B79332B1B08EC004D8AB9 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 883B79102B1B08EB004D8AB9 /* GeoDrop */;
+			targetProxy = 883B79322B1B08EC004D8AB9 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		883B791A2B1B08EB004D8AB9 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883B791B2B1B08EB004D8AB9 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		883B791F2B1B08EC004D8AB9 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				883B79202B1B08EC004D8AB9 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		883B79392B1B08EC004D8AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		883B793A2B1B08EC004D8AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		883B793C2B1B08EC004D8AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 983722FAD901485954B446A2 /* Pods-GeoDrop.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoDrop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeoDrop.GeoDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		883B793D2B1B08EC004D8AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 9FDA80D6206E1943537E9961 /* Pods-GeoDrop.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = GeoDrop/Info.plist;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
+				INFOPLIST_KEY_UIMainStoryboardFile = Main;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeoDrop.GeoDrop;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		883B793F2B1B08EC004D8AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeoDrop.GeoDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoDrop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoDrop";
+			};
+			name = Debug;
+		};
+		883B79402B1B08EC004D8AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 17.0;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeoDrop.GeoDropTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeoDrop.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeoDrop";
+			};
+			name = Release;
+		};
+		883B79422B1B08EC004D8AB9 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeoDrop.GeoDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoDrop;
+			};
+			name = Debug;
+		};
+		883B79432B1B08EC004D8AB9 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = GeoDrop.GeoDropUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = GeoDrop;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		883B790C2B1B08EB004D8AB9 /* Build configuration list for PBXProject "GeoDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883B79392B1B08EC004D8AB9 /* Debug */,
+				883B793A2B1B08EC004D8AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883B793B2B1B08EC004D8AB9 /* Build configuration list for PBXNativeTarget "GeoDrop" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883B793C2B1B08EC004D8AB9 /* Debug */,
+				883B793D2B1B08EC004D8AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883B793E2B1B08EC004D8AB9 /* Build configuration list for PBXNativeTarget "GeoDropTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883B793F2B1B08EC004D8AB9 /* Debug */,
+				883B79402B1B08EC004D8AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		883B79412B1B08EC004D8AB9 /* Build configuration list for PBXNativeTarget "GeoDropUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				883B79422B1B08EC004D8AB9 /* Debug */,
+				883B79432B1B08EC004D8AB9 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 883B79092B1B08EB004D8AB9 /* Project object */;
+}
